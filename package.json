@@ -1,0 +1,38 @@
+{
+  "name": "fs-manage",
+  "version": "1.0.0",
+  "description": "A utility library for file operations and sequential execution in Node.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:cjs": "tsc --project ./tsconfig.cjs.json",
+    "build:esm": "tsc --project ./tsconfig.esm.json",
+    "build": "npm run build:cjs && npm run build:esm",
+    "prepublishOnly": "npm run "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HanDdeng/fs-manage.git"
+  },
+  "keywords": [
+    "fs",
+    "isFile",
+    "getFileData",
+    "createDir",
+    "writeFileData",
+    "writeBigFileData",
+    "entryRecords"
+  ],
+  "author": "HanDdeng",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "typescript": "^5.5.4"
+  },
+  "bugs": {
+    "url": "https://github.com/HanDdeng/fs-manage/issues"
+  },
+  "homepage": "https://github.com/HanDdeng/fs-manage"
+}
