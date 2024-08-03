@@ -3,7 +3,7 @@
 ````markdown
 # fs-manage
 
-A utility library for file operations and sequential execution in Node.js.
+A utility library for file operations in Node.js.
 
 ## Features
 
